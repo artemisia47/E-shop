@@ -1,0 +1,92 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: rgb(237, 239, 229);
+}
+
+  
+  header {
+    background-image: url('backgroundheading.png');
+  background-size: cover; /* Adjusts the texture to cover the header */
+  background-position: center; /* Centers the texture within the header */
+  background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  .gifs-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px; /* Adjust the gap between GIFs */
+  }
+  
+  .gif {
+    width: 150px; /* Adjust the size of the GIFs */
+    height: 120px;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  
+  section {
+    width: 45%;
+    padding: 1em;
+    border: 2px solid #097628;
+    border-radius: 5px;
+  }
+  
+  .product {
+    border: 3px solid #095e16;
+    padding: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    border-radius:30px;
+  }
+  
+  .product img {
+    max-width: 100px;
+    margin-bottom: 1em;
+  }
+  
+  button {
+    background: #02921c;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  
+  button:hover {
+    background: #c6ed06;
+  }
+  
+  #cart-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #cart-items li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid #ece5e5;
+    padding-bottom: 0.5em;
+  }
+  
+  #total {
+    font-weight: bold;
+    margin-top: 1em;
+  }
+  

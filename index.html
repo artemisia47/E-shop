@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Shop - Pet Shop Products</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Pet Shop</h1>
+    <div class="gifs-container">
+        <img src="catplaying.gif" alt="GIF 1" class="gif">
+        <img src="doggo.gif" alt="GIF 2" class="gif">
+        <img src="parrot.gif" alt="GIF 3" class="gif">
+        <img src="goldfish.gif" alt="GIF 4" class="gif">
+      </div>
+  </header>
+
+  <main>
+    <section id="products">
+      <h2>Pet Shop Products</h2>
+
+      <div class="product" data-id="1" data-price="10">
+        <img src="dogfood.jpg" alt="Dog Food">
+        <h3>Dog Food</h3>
+        <p>Price: $10/1kg</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product" data-id="2" data-price="10">
+        <img src="catfood.jpg" alt="Cat Food">
+        <h3>Cat Food</h3>
+        <p>Price: $10/1kg</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product" data-id="3" data-price="6">
+        <img src="birdseed.jpg" alt="Bird Seed">
+        <h3>Bird Seed</h3>
+        <p>Price: $6/1kg</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product" data-id="4" data-price="12">
+        <img src="collar.jpg" alt="Pet Collar">
+        <h3>Pet Collar</h3>
+        <p>Price: $12</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product" data-id="5" data-price="30">
+        <img src="dogbed.jpg" alt="Dog Bed">
+        <h3>Dog Bed</h3>
+        <p>Price: $30</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product" data-id="6" data-price="8">
+        <img src="toy.jpg" alt="Pet Toys">
+        <h3>Pet Toys</h3>
+        <p>Price: $8</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product" data-id="7" data-price="18">
+        <img src="fishfood.jpg" alt="Fish Food">
+        <h3>Fish Food</h3>
+        <p>Price: $18</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product" data-id="8" data-price="35">
+        <img src="cattree.png" alt="Cat Tree">
+        <h3>Cat Tree</h3>
+        <p>Price: $35</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product" data-id="9" data-price="12">
+        <img src="litter.jpg" alt="Litter Box">
+        <h3>Litter Box</h3>
+        <p>Price: $12</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product" data-id="10" data-price="55">
+        <img src="aquarium.jpg" alt="Aquarium">
+        <h3>Aquarium</h3>
+        <p>Price: $55</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+    </section>
+
+    <section id="cart">
+      <h2>Shopping Cart</h2>
+      <ul id="cart-items">
+        <!-- Cart items will be dynamically added here -->
+      </ul>
+      <p id="total">Total: $0</p>
+      <button id="proceed-to-payment">Proceed to Payment</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
