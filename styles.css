@@ -90,3 +90,23 @@ body {
     margin-top: 1em;
   }
   
+
+  .remove-item {
+    display: inline-block; /* Ensure the button behaves like a block within inline context */
+    width: 80px;           /* Set a fixed width for uniformity */
+    height: 30px;          /* Set a fixed height */
+    padding: 0;            /* Remove extra padding */
+    font-size: 14px;       /* Ensure text is consistent */
+    background-color: #f44336; /* Button color */
+    color: white;          /* Text color */
+    border: none;          /* Remove default border */
+    border-radius: 30px;    /* Optional: Rounded corners */
+    text-align: center;    /* Center the text inside the button */
+    line-height: 30px;     /* Vertically align text */
+    cursor: pointer;       /* Pointer cursor for interactivity */
+    box-sizing: border-box; /* Include padding and border in dimensions */
+}
+
+.remove-item:hover {
+    background-color: #ff0000; /* Optional: Hover effect */
+}
